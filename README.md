@@ -57,3 +57,5 @@ This cascade classifier is designed by OpenCV to detect the frontal face by trai
 # Step 9: Detecting the Faces with and without Masks
 In the last step, we use the OpenCV library to run an infinite loop to use our web camera in which we detect the face using the Cascade Classifier. The code webcam = cv2.VideoCapture(0)denotes the usage of webcam.
 The model will predict the possibility of each of the two classes ([without_mask, with_mask]). Based on which probability is higher, the label will be chosen and displayed around our faces.
+
+sources: https://youtu.be/Ax6P93r32KU
